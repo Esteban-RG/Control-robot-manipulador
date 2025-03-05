@@ -2,5 +2,5 @@
 
 Interface de manejo manual:
 
-![Interface] (https://github.com/Esteban-RG/Control-robot-manipulador/tree/main/assets)
+![Interface] (https://github.com/Esteban-RG/Control-robot-manipulador/tree/main/assets/interface.png)
 
