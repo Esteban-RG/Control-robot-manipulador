@@ -2,8 +2,5 @@
 
 Interface de manejo manual:
 
-![Interface] (assets/interface.png)
+![Interface] (https://github.com/Esteban-RG/Control-robot-manipulador/tree/main/assets)
 
-(Experimental) Manejo automatico mediante vision artificial
-
-![Vision-artificial] (assets/vision.png)
