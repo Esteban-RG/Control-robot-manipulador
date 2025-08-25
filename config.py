@@ -11,20 +11,20 @@ SERIAL_CONFIG = {
 # Configuración de cámaras
 CAMERA_CONFIG = {
     'camera_x': {
-        'index': 2,          # Índice de la cámara en el eje X
-        'resolution': (640, 480),
+        'index': 2,          # Índice de la cámara para el eje X
+        'resolution': (1580, 1020),
         'fps': 30
     },
     'camera_y': {
-        'index': 1,          # Índice de la cámara en el eje Y
-        'resolution': (640, 480),
+        'index': 0,          # Índice de la cámara para el eje Y
+        'resolution': (1580, 1020),
         'fps': 30
     }
 }
 
 # Configuración de detección de objetos
 DETECTION_CONFIG = {
-    'min_area': 500,         # Área mínima para detectar objetos
+    'min_area': 50,         # Área mínima para detectar objetos
     'confidence_threshold': 0.7,  # Umbral de confianza
     'max_objects': 10        # Máximo número de objetos a detectar
 }
@@ -34,6 +34,11 @@ COLOR_RANGES = {
     "red": {
         "lower": [0, 100, 100],
         "upper": [10, 255, 255],
+        "bgr": (0, 0, 255)
+    },
+    "red2": {
+        "lower": [170, 100, 100],
+        "upper": [180, 255, 255],
         "bgr": (0, 0, 255)
     },
     "yellow": {
@@ -50,6 +55,16 @@ COLOR_RANGES = {
         "lower": [100, 100, 100],
         "upper": [130, 255, 255],
         "bgr": (255, 0, 0)
+    },
+    "purple": {
+        "lower": [130, 100, 100],
+        "upper": [170, 255, 255],
+        "bgr": (255, 0, 255)
+    },
+    "black": {
+        "lower": [0, 0, 0],
+        "upper": [180, 255, 30],
+        "bgr": (0, 0, 0)
     }
 }
 
